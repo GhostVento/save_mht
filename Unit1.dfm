@@ -81,8 +81,8 @@ object Form1: TForm1
       Width = 145
       Height = 23
       Align = alLeft
+      Style = csDropDownList
       TabOrder = 2
-      Text = 'OLECMDID_SAVEAS'
       Items.Strings = (
         'OLECMDID_SAVEAS'
         'OLECMDID_SAVE')
@@ -94,9 +94,8 @@ object Form1: TForm1
       Width = 238
       Height = 23
       Align = alLeft
-      ItemIndex = 0
+      Style = csDropDownList
       TabOrder = 3
-      Text = 'OLECMDEXECOPT_DONTPROMPTUSER'
       Items.Strings = (
         'OLECMDEXECOPT_DONTPROMPTUSER'
         'OLECMDEXECOPT_PROMPTUSER'

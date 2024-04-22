@@ -39,6 +39,8 @@ begin
   WebBrowser1.Navigate('https://google.com');
   FilePath := ExtractFilePath(ParamStr(0)) + 'savedpage.mht'; // Путь для сохранения MHT файла
   Label1.Caption:='FilePath: '+FilePath;
+  ComboBox1.ItemIndex:=0;
+  ComboBox2.ItemIndex:=0;
 end;
 
 
